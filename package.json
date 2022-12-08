@@ -1,0 +1,18 @@
+{
+  "name": "cirle-game",
+  "version": "1.0.0",
+  "description": "simple js game with backend",
+  "main": "index.js",
+  "scripts": { 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leon-Bor/circle-game.git"
+  },
+  "author": "lb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leon-Bor/circle-game/issues"
+  },
+  "homepage": "https://github.com/Leon-Bor/circle-game#readme"
+}
