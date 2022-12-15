@@ -16,7 +16,7 @@ export class LoadingScene extends Scene {
     this.load.baseURL = "assets/";
 
     this.load.image(`bullet`, `images/bullet.png`);
-    this.load.image(`battleBackground`, `images/gameField.png`);
+    this.load.image(`battleBackground`, `images/battleBackground.png`);
     this.load.image(`player`, `images/player.png`);
 
     this.load.audio("reelStop", "sounds/reel-spin-end.mp3");

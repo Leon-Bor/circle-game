@@ -68,13 +68,13 @@ export class Player {
 
     if (deg >= 0 && deg < Math.PI / 2) {
       // Right to bottom
-      if (spriteX > destinationX && spriteY > destinationY) {
+      if (spriteX >= destinationX && spriteY >= destinationY) {
         this._sprite.setVelocity(0, 0);
         this._destination = undefined;
       }
     } else if (deg >= Math.PI / 2 && deg < Math.PI) {
       // Bottom to left
-      if (spriteX < destinationX && spriteY > destinationY) {
+      if (spriteX <= destinationX && spriteY >= destinationY) {
         this._sprite.setVelocity(0, 0);
         this._destination = undefined;
       }
@@ -86,7 +86,7 @@ export class Player {
       }
     } else if (deg >= -Math.PI / 2 && deg < 0) {
       // Top to right
-      if (spriteX > destinationX && spriteY < destinationY) {
+      if (spriteX >= destinationX && spriteY <= destinationY) {
         this._sprite.setVelocity(0, 0);
         this._destination = undefined;
       }
