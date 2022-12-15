@@ -17,17 +17,10 @@ const gameConfig: Types.Core.GameConfig = {
     height: config.height,
   },
   physics: {
-    default: "matter",
-    matter: {
-      enableSleeping: true,
-      gravity: {
-        y: 0,
-        x: 0,
-      },
-      debug: {
-        showBody: true,
-        showStaticBody: true,
-      },
+    default: "arcade",
+    arcade: {
+      gravity: { y: 0, x: 0 },
+      debug: true,
     },
   },
   render: {
