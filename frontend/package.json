@@ -21,7 +21,8 @@
   "dependencies": {
     "phaser": "^3.55.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.6.0"
+    "rxjs": "^7.6.0",
+    "socket.io-client": "^4.5.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",

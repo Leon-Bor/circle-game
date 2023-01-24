@@ -16,8 +16,8 @@
     "emitDecoratorMetadata": true,
     "typeRoots": ["@types", "node_modules/@types", "node_module/phaser/types"],
     "types": ["Phaser"],
-    "strictPropertyInitialization": false,
+    "strictPropertyInitialization": false
   },
-  "include": ["@types/index.d.ts", "**/*.ts", "../common/singleton.ts",],
+  "include": ["@types/index.d.ts", "**/*.ts", "../common/*.ts"],
   "exclude": ["node_modules", "./dist/"]
 }

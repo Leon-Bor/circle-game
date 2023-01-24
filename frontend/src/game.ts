@@ -6,7 +6,7 @@ import { GameScene } from "./scenes/game.scene";
 import { LoadingScene } from "./scenes/loading.scene";
 
 const gameConfig: Types.Core.GameConfig = {
-  title: "Phaser game tutorial",
+  title: "Phaser Circle Game",
   type: Phaser.WEBGL,
   parent: "game",
   backgroundColor: "#101010",
